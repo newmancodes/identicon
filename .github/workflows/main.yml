@@ -45,7 +45,7 @@ jobs:
                     exit 0
                 fi
                 git commit -m "Store Identicon"
-                git remote set-url origin https://<username>:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+                git remote set-url origin https://github.com/${{ github.repository }}
                 git push origin main
 
             - name: Generate Documentation
