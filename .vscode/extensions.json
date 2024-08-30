@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "github.copilot",
         "JakeBecker.elixir-ls",
         "phoenixframework.phoenix"
     ]
