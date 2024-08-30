@@ -22,7 +22,7 @@ defmodule Identicon.MixProject do
   defp deps do
     [
       { :ex_doc, "~> 0.34" },
-      {:egd, github: "erlang/egd"}
+      { :egd, github: "erlang/egd", manager: :rebar3 }
     ]
   end
 end
