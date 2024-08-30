@@ -16,6 +16,9 @@ jobs:
               with:
                 elixir-version: '1.17.2'
                 otp-version: '27'
+            
+            - name: Install rebar (Erlang Build Tool)
+              run: mix local.rebar --force
 
             - name: Install Dependencies
               run: mix deps.get
